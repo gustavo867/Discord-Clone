@@ -27,6 +27,17 @@ const ChannelData: React.FC = () => {
           />
         ))}
             <ChannelMessage
+              author="Tiago"
+              date="18/06/2020"
+              content = {
+                <> 
+                <Mention>@Frodo</Mention> De novo querendo contrabandear produtos chilenos
+                </>
+              }
+              hasMention
+              isBot
+            />
+            <ChannelMessage
               author="Frodo"
               date="18/06/2020"
               content= {
